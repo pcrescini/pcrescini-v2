@@ -1,3 +1,9 @@
+# paulcrescini.dev - v2
+
+The second iteration of [paulcrescini.dev](https://paulcrescini.dev) —  an online portfolio showcasing my professional front-end development work along with personal mini projects.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
