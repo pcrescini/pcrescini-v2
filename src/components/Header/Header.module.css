@@ -1,0 +1,257 @@
+.header {
+  color: var(--light);
+  background-color: var(--federal-blue);
+  margin: auto;
+  padding: 25px 10%;
+  width: 100vw;
+  height: 125px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  transition: var(--transition);
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav a {
+  color: var(--light);
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: var(--transition);
+}
+
+
+.nav a:not(.resumeLink)::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  position: relative;
+  bottom: 0;
+  background-color: var(--robin-egg-blue);
+  transition: var(--transition);
+}
+
+.nav .navLogo a::after {
+  height: 0px;
+}
+
+.nav a:hover {
+  color: var(--light);
+  outline: 0px;
+}
+
+.nav a:focus,
+.nav a:focus-visible {
+  outline: 2px dotted red;
+  outline-offset: 5px;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.navLinks,
+.navLinks > *:not(.resumeLink) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.navMenu {
+  display: none;
+}
+
+.navMenuButton {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+  color: var(--light);
+  font-size: 2rem;
+  z-index: 20;
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+  transition-property: opactity, filter;
+}
+
+.navMenuSidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--federal-blue);
+  z-index: 10;
+  transform: translateX(100vw);
+  transition: var(--transition);
+  visibility: hidden;
+}
+
+.navOpen .navMenuSidebar {
+  transform: translateX(0);
+  transition: var(--transition);
+  visibility: visible;
+}
+
+.navMenuSidebar nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navMenuSidebar ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navMenuSidebar ul li {
+  margin-bottom: 35px;
+}
+
+.navLogo {
+  z-index: 99;
+}
+
+.navLogo img {
+  width: 82px;
+  height: 75px;
+}
+
+.resumeLink {
+  padding: 1rem 2rem;
+  border: 2px solid var(--robin-egg-blue);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.resumeLink:hover {
+  background: rgba(256, 256, 256, 0.2);
+  transition: var(--transition);
+}
+
+.hamburgerMenuBox {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 24px;
+}
+
+.hamburgerMenuBoxInner {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  border-radius: 4px;
+  background-color: var(--robin-egg-blue);
+  transition: var(--hamburger-transition);
+  transform: rotate(0deg);
+}
+
+.hamburgerMenuBoxInner::before,
+.hamburgerMenuBoxInner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: auto;
+  right: 0px;
+  height: 2px;
+  border-radius: 4px;
+  background-color: var(--robin-egg-blue);
+  transition-timing-function: ease;
+  transition-duration: 0.15s;
+  transition-property: transform;
+}
+
+.hamburgerMenuBoxInner::before {
+  width: 120%;
+  top: -10px;
+  opacity: 1;
+  transition: var(--hamburger-transition-before);
+}
+
+.hamburgerMenuBoxInner::after {
+  width: 80%;
+  bottom: -10px;
+  transform: rotate(0deg);
+  transition: var(--hamburger-transition-after);
+}
+
+.navOpen .hamburgerMenuBoxInner {
+  transition: var(--hamburger-transition-active);
+  transform: rotate(225deg);
+}
+
+.navOpen .hamburgerMenuBoxInner::before {
+  width: 100%;
+  top: 0px;
+  opacity: 0;
+  transition: var(--hamburger-transition-before-active);
+}
+
+.navOpen .hamburgerMenuBoxInner::after {
+  width: 100%;
+  bottom: 0px;
+  transform: rotate(-90deg);
+  transition: var(--hamburger-transition-after-active);
+}
+
+.scrolled {
+  box-shadow: 0 10px 20px -10px var(--shadow);
+  border-bottom: 1px solid var(--shadow);
+}
+
+.visuallyHidden {
+  display: inline-block;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1;
+  width: 1;
+  margin: -1;
+  padding: 0;
+  border: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+    height: 100px;
+    padding: 15px 50px;
+  }
+
+  .navMenuButton {
+    display: block;
+  }
+
+  .navLinks {
+    display: none;
+  }
+}
