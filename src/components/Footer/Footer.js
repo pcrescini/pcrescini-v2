@@ -31,7 +31,7 @@ export default function Footer() {
       <button
         className={styles.scrollToTop}
         type="button"
-        onclick={scrollToTop}
+        onClick={scrollToTop}
       >
         <FontAwesomeIcon icon={faAngleUp} size="2x" />
         <span className={styles.visuallyHidden}>scroll to top</span>
