@@ -5,7 +5,7 @@
   padding: 25px 10%;
   width: 100vw;
   height: 125px;
-  position: fixed;
+  position: sticky;
   top: 0px;
   left: 0px;
   z-index: 10;
@@ -46,9 +46,7 @@
   transition: var(--transition);
 }
 
-.nav .navLogo a::after {
-  height: 0px;
-}
+
 
 .nav a:hover {
   color: var(--light);
@@ -135,14 +133,7 @@
   margin-bottom: 35px;
 }
 
-.navLogo {
-  z-index: 99;
-}
 
-.navLogo img {
-  width: 82px;
-  height: 75px;
-}
 
 .resumeLink {
   padding: 1rem 2rem;

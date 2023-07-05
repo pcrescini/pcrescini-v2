@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
+import Logo from '@/components/Logo';
 import useToggle from '@/hooks/use-toggle';
 import styles from './Header.module.css';
 
@@ -17,16 +18,7 @@ export default function Header() {
         isMenuOpen ? `${styles.navOpen} ${styles.header}` : styles.header
       }
     >
-      <div className={styles.nav__logo}>
-        <a href="/">
-          <Image
-            src="/logo.png"
-            width={82}
-            height={75}
-            alt="Logo of paulcrescini.dev website"
-          />
-        </a>
-      </div>
+      <Logo />
       <nav
         className={
           isMenuOpen

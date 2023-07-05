@@ -1,0 +1,12 @@
+.navLogo {
+  z-index: 99;
+}
+
+.navLogo a::after {
+  height: 0px;
+}
+
+.navLogo img {
+  width: 82px;
+  height: 75px;
+}
