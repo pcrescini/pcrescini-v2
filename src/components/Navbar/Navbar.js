@@ -36,7 +36,7 @@ export default function Navbar() {
           </ul>
           <a
             className={styles.resumeLink}
-            href="./assets/files/paul-c-crescini-resume.pdf"
+            href="/paul-c-crescini-resume.pdf"
             target="_blank"
             aria-label="Link to my Resume in PDF format (opens in new tab)"
           >

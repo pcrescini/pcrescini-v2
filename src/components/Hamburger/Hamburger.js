@@ -6,7 +6,7 @@ import styles from './Hamburger.module.css';
 
 export default function Hamburger({ handleDismiss, showMobileNav }) {
   useEscapeKey(handleDismiss, showMobileNav);
-  console.log('showMobileNav', showMobileNav);
+
   return (
     <button
       type="button"
