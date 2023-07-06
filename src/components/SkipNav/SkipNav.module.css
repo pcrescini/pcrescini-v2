@@ -1,0 +1,14 @@
+.skipNav {
+  position: absolute;
+  left: 45%;
+  transform: translateY(-100%);
+  background-color: var(--celestial-blue);
+  color: var(--light);
+  padding: 10px;
+  transition: var(--transition);
+  z-index: 500;
+}
+
+.skipNav:focus {
+  transform: translateY(0%);
+}

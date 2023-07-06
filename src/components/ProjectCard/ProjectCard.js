@@ -32,7 +32,7 @@ export default function ProjectCard({
           {category} {platform && ` | ${platform}`}
         </p>
         <p>{description}</p>
-        <p>
+        <p className={styles.link}>
           <a href={`/${id}`}>Learn more →</a>
         </p>
       </div>

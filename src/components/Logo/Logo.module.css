@@ -2,6 +2,12 @@
   z-index: 99;
 }
 
+.navLogo a:focus,
+.navLogo a:focus-visible {
+  outline: 2px dotted red;
+  outline-offset: 5px;
+}
+
 .navLogo a::after {
   height: 0px;
 }
