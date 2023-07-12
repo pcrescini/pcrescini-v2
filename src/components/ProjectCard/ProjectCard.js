@@ -22,7 +22,7 @@ export default function ProjectCard({
       className={styles.card}
     >
       <div className={styles.imageContainer}>
-        <Link href={`/${id}`} className={styles.imageLink}>
+        <Link href={`/projects/${id}`} className={styles.imageLink}>
           <Image fill src={imgSrc} alt={name} />
         </Link>
       </div>
@@ -33,7 +33,7 @@ export default function ProjectCard({
         </p>
         <p>{description}</p>
         <p className={styles.link}>
-          <a href={`/${id}`}>Learn more →</a>
+          <a href={`/projects/${id}`}>Learn more →</a>
         </p>
       </div>
     </div>

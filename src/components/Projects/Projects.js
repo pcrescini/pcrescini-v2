@@ -7,13 +7,13 @@ const montserrat = Montserrat({ subsets: ['latin'] });
 
 const PROJECTS_DATA = [
   {
-    id: 'bronzeville',
-    name: 'Bronzeville Books',
+    id: 'man-refined',
+    name: 'TheManRefined',
     category: 'ecommerce',
     platform: 'cart storefront',
-    imgSrc: '/bronzeville-books.png',
+    imgSrc: '/man-refined.png',
     description:
-      'Bronzeville Books is an independent book publisher focussed on elevating voices and stories that have long been underrepresented and need to be told.',
+      'TheManRefined is an independent menswear retailer that specializes in making high quality, custom-made garments that don\'t break the bank.',
   },
   {
     id: 'knwblegrwn',
