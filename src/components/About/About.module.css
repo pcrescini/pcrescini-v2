@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.container > div {
+  flex-basis: auto;
+}
+
+.imageContainer {
+  max-width: 600px;
+}
+
+.imageContainer img {
+  object-fit: contain;
+  width: 100%;
+  height: unset;
+  border-radius: 25px;
+}
+
+.tag {
+  font-size: var(--font-size-sm);
+  line-height: 160%;
+  letter-spacing: 0.03rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .imageContainer {
+    display: none;
+  }
+
+  .container {
+    flex-direction: 100%;
+  }
+
+  .container > div {
+    flex-basis: unset;
+  }
+}

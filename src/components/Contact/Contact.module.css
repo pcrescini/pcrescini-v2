@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.contactSocial {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.contactSocial a {
+  color: var(--light);
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: var(--transition);
+}
+
+.contactSocial a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  position: relative;
+  bottom: 0;
+  background-color: var(--robin-egg-blue);
+  transition: var(--transition);
+}
+
+.contactSocial a:hover {
+  color: var(--light);
+  outline: 0px;
+}
+
+.contactSocial a:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+}

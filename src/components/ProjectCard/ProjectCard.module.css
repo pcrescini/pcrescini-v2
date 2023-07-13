@@ -67,9 +67,9 @@
 
 .imageContainer img {
   object-fit: contain;
-  width: 100% !important;
+  width: 100%;
   position: relative !important;
-  height: unset !important;
+  height: unset;
 }
 
 .tag {
