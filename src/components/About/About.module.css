@@ -28,6 +28,41 @@
   text-align: center;
 }
 
+.tag a {
+  color: var(--light);
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: var(--transition);
+}
+
+.tag a::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  position: relative;
+  bottom: 0;
+  background-color: var(--robin-egg-blue);
+  transition: var(--transition);
+}
+
+.tag a:focus,
+.tag a:focus-visible {
+  outline: 2px dotted red;
+  outline-offset: 5px;
+}
+
+.tag a:hover {
+  color: var(--light);
+  outline: 0px;
+}
+
+.tag a:hover::after {
+  width: 100%;
+}
+
 @media screen and (max-width: 991px) {
   .imageContainer {
     display: none;
