@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import Hamburger from '@/components/Hamburger';
 import Drawer from '@/components/Drawer';
 import useToggle from '@/hooks/use-toggle';
