@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import Hamburger from '@/components/Hamburger';
 import Drawer from '@/components/Drawer';
 import useToggle from '@/hooks/use-toggle';
@@ -25,13 +26,13 @@ export default function Navbar() {
         <div className={styles.navElements}>
           <ul id="main-menu">
             <li>
-              <a href="#about">About</a>
+              <a href="/#about">About</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="/#projects">Projects</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="/#contact">Contact</a>
             </li>
           </ul>
           <a

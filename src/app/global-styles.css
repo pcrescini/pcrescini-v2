@@ -35,7 +35,6 @@
 
 html:not(.iFrame) {
   min-height: 100vh;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -157,14 +156,15 @@ section {
   color: var(--dark);
   min-height: 100vh;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 
 #contact {
   background-color: var(--dark);
   color: var(--light);
   min-height: calc(100vh - 200px);
-  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 0;
 }
 
 #projectPage {

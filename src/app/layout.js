@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import './global-styles.css';
 import { Inter } from 'next/font/google';
+import ScrollToTop from '@/components/ScrollToTop/ScrollToTop';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
