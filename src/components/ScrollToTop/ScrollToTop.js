@@ -1,28 +1,13 @@
 'use client';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import useWindowScroll from '@/hooks/use-window-scroll';
 import styles from './ScrollToTop.module.css';
 
 export default function ScrollToTop() {
   const [showScrollButton, setShowScrollButton] = useState(false);
-  const wrapperElementRef = useRef();
-
-  useEffect(() => {
-    function handleWindowScroll() {
-      if (window.scrollY > 25) {
-        setShowScrollButton(true);
-      } else {
-        setShowScrollButton(false);
-      }
-    }
-
-    window.addEventListener('scroll', handleWindowScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleWindowScroll);
-    };
-  }, []);
+  useWindowScroll(setShowScrollButton);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -36,7 +21,7 @@ export default function ScrollToTop() {
     : `${styles.scrollToTop}`;
 
   return (
-    <div ref={wrapperElementRef} className={styles.wrapper}>
+    <div className={styles.wrapper}>
       <button
         className={scrollButtonDisplayStyle}
         type="button"
