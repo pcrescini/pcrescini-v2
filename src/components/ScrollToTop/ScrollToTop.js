@@ -10,7 +10,7 @@ export default function ScrollToTop() {
 
   useEffect(() => {
     function handleWindowScroll() {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 25) {
         setShowScrollButton(true);
       } else {
         setShowScrollButton(false);

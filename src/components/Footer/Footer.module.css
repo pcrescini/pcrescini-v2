@@ -5,47 +5,5 @@
   align-items: center;
   justify-content: center;
   font-size: var(--font-size-sm);
-  min-height: 100px;
-}
-
-.footer a {
-  color: var(--light);
-  display: inline-block;
-  text-decoration: none;
-  text-decoration-skip-ink: auto;
-  position: relative;
-  transition: var(--transition);
-}
-
-.footer a::after {
-  content: '';
-  display: block;
-  width: 0px;
-  height: 2px;
-  position: relative;
-  bottom: 0;
-  background-color: var(--robin-egg-blue);
-  transition: var(--transition);
-}
-
-.footer a:hover {
-  color: var(--light);
-  outline: 0px;
-}
-
-.footer a:hover::after {
-  width: 100%;
-}
-
-.footer p {
-  margin: 0 0 10px 0;
-}
-
-.footerContent {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0px;
+  height: 75px;
 }

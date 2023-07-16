@@ -13,7 +13,7 @@ export default function ManRefined() {
   return (
     <section className={styles.projectPage}>
       <h6 className={`${montserrat.className} ${styles.mb1}`}>
-        <Link href={`../../#projects`}>&larr; Back to Projects</Link>
+        <Link href={`/#projects`}>&larr; Back to Projects</Link>
       </h6>
       <h1 className={`h2 ${montserrat.className} ${styles.mb1}`}>
         TheManRefined

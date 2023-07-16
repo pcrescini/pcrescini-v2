@@ -25,7 +25,7 @@ export default function Hero() {
             and expertise.
           </p>
         </div>
-        <div></div>
+        <div className={styles.pentagon}></div>
       </div>
     </section>
   );

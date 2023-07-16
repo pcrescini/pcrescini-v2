@@ -6,6 +6,10 @@
   gap: 50px;
 }
 
+.container > div {
+  flex-basis: 50%;
+}
+
 .contactSocial {
     display: flex;
     flex-wrap: wrap;

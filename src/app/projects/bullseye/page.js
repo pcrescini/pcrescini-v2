@@ -13,7 +13,7 @@ export default function Bullseye() {
   return (
     <section className={styles.projectPage}>
       <h6 className={`${montserrat.className} ${styles.mb1}`}>
-        <Link href={`../../#projects`}>&larr; Back to Projects</Link>
+        <Link href={`/#projects`}>&larr; Back to Projects</Link>
       </h6>
       <h1 className={`h2 ${montserrat.className} ${styles.mb1}`}>
         Bullseye! - JS Video Game
@@ -25,8 +25,8 @@ export default function Bullseye() {
             JavaScript, HTML, CSS, and HTML Canvas.
           </p>
           <p>
-            Prior to this project, I&#39;ve never worked with the HTML Canvas
-            element. So when I saw that{' '}
+            I&#39;ve never worked with the HTML Canvas
+            element prior to this project. So when{' '}
             <a
               href="https://www.freecodecamp.org/news/create-an-animated-physics-game-with-javascript/"
               target="_blank"
@@ -39,7 +39,7 @@ export default function Bullseye() {
             simple game, I jumped at the chance to learn more while exercising
             my JavaScript skills.
           </p>
-          <p>In this course, I learned how to: </p>
+          <p>While working on this project, I learned how to: </p>
           <ul>
             <li>implement a very simple AI to make the creatures feel alive</li>
             <li>

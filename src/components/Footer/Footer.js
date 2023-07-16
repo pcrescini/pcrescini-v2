@@ -5,9 +5,7 @@ export default function Footer() {
   const currentYear = dateObj.getFullYear();
   return (
     <footer className={styles.footer}>
-      <div className={styles.footerContent}>
-        <p>&copy; {currentYear} Paul C Crescini</p>
-      </div>
+      &copy; {currentYear} Paul C Crescini
     </footer>
   );
 }

@@ -55,12 +55,12 @@ export default function Contact() {
       <h2 className={montserrat.className}>Contact</h2>
       <div className={styles.container}>
         <div data-aos="zoom-in" data-aos-duration="1000">
-          <p>
+
             I am currently open to new career opportunities and connecting with
             like-minded people. So whether you have a question or just want to
             say hello 👋🏽, please reach out and I will do my best to get back to
             you!
-          </p>
+
         </div>
         <div
           className={styles.contactSocial}
