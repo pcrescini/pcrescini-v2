@@ -22,12 +22,12 @@ export default function Knwblegrwn() {
         <div className={styles.containerContent}>
           <p>
             Knwble Grwn is a brand with a mission to support what matters most
-            people and the planet. Their products are produced by small or
+            to people and the planet. Their products are produced by small or
             traditionally underrepresented farmers who use regenerative
             agricultural practices to help protect the environment.
           </p>
           <p>
-            When Knwble Grwn partnered with{' '}
+            Knwble Grwn partnered with{' '}
             <a
               href="https://www.cart.com"
               target="_blank"
@@ -36,17 +36,16 @@ export default function Knwblegrwn() {
             >
               Cart.com
             </a>{' '}
-            in 2022, their products were sold only on Amazon.
+            in 2022 to expand their ecommerce channels beyond Amazon.
           </p>
           <p>
-            Since they did not require the full ecommerce capabilities of the
-            Cart Storefront, I built out simple landing page based on Figma
-            designs created by our internal design team and brand guidelines
-            provided by Knwble Grwn.
+            Since they did not initially require the full ecommerce capabilities
+            of the Cart Storefront, I built a landing page based on Figma
+            designs created by our internal design team.
           </p>
           <p>
-            This was a fun project to work on as I enjoyed building out the
-            simple, yet elegant design.
+            This project was enjoyable as I had fun building a simple yet
+            elegant design.
           </p>
         </div>
         <div className={`${styles.containerContent} ${styles.textCenter}`}>

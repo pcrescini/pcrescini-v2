@@ -25,8 +25,8 @@ export default function Bullseye() {
             JavaScript, HTML, CSS, and HTML Canvas.
           </p>
           <p>
-            I&#39;ve never worked with the HTML Canvas
-            element prior to this project. So when{' '}
+            Before this project, I had never worked with the HTML Canvas
+            element. So when{' '}
             <a
               href="https://www.freecodecamp.org/news/create-an-animated-physics-game-with-javascript/"
               target="_blank"
@@ -43,7 +43,7 @@ export default function Bullseye() {
           <ul>
             <li>implement a very simple AI to make the creatures feel alive</li>
             <li>
-              control the game&#39;s FPS and how to measure time to trigger
+              control the game&#39;s FPS and measure time to trigger
               periodic events
             </li>
             <li>
@@ -55,7 +55,7 @@ export default function Bullseye() {
               environments and animated characters from a sprite sheet
             </li>
             <li>
-              capture mouse position and animate an 8 directional sprite sheet
+              capture mouse position and animate an 8-directional sprite sheet
               based on the relative position between the mouse and the player
               character
             </li>
@@ -65,7 +65,7 @@ export default function Bullseye() {
             <li>refactoring the code to make the game mobile responsive</li>
             <li>adding in music and sound effects</li>
             <li>implementing difficulty settings</li>
-            <li>adding in a high score scoreboard</li>
+            <li>adding in a high-score scoreboard</li>
           </ul>
         </div>
         <div className={`${styles.containerContent} ${styles.textCenter}`}>

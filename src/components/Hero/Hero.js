@@ -18,11 +18,11 @@ export default function Hero() {
             I enjoy building things for the web.
           </h2>
           <p>
-            I&#39;m a front-end developer specializing in creating delightful
-            user experiences using HTML, CSS, and vanilla JavaScript. I&#39;m
-            currently focussed on leveling up my React and Next.js skills and am
-            always seeking new challenges and opportunities to enhance my skills
-            and expertise.
+            I&#39;m a front-end web developer based in Houston, TX specializing
+            in creating delightful user experiences using HTML, CSS, and vanilla
+            JavaScript. I am actively seeking out opportunities to ehance my
+            expertise in React, Next.js and other various front-end web
+            development frameworks.
           </p>
         </div>
         <div className={styles.pentagon}></div>

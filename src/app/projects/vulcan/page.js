@@ -20,9 +20,9 @@ export default function Vulcan() {
         <div className={styles.containerContent}>
           <p>
             Vulcan is the leading direct to consumer brand for premium firearm
-            accessories. By cutting out middlemen, leveraging social media, and
-            utilizing global distribution networks we can provide innovative and
-            premium products at affordable prices worldwide.
+            accessories. By cutting out the middlemen, leveraging social media, and
+            utilizing global distribution networks, we can provide innovative
+            and premium products at affordable prices worldwide.
           </p>
           <p>
             Vulcan aquired the help{' '}
@@ -37,8 +37,8 @@ export default function Vulcan() {
             team to design, develop, and deliver various media campaigns.
           </p>
           <p>
-            One of the campaigns required building out an email campaign landing
-            page on Vulcan&#39;s{' '}
+            One campaign required building an email campaign landing page on
+            Vulcan&#39;s{' '}
             <a
               href="https://www.shopify.com/"
               target="_blank"
@@ -48,13 +48,13 @@ export default function Vulcan() {
               Shopify
             </a>{' '}
             storefront. As the front-end developer for this project with no
-            prior Shopify experience, I had to familiarized myself Shopify&#39;s
-            theme architecture and Liquid templating language.
+            prior Shopify experience, I had to quickly familiarize myself with
+            Shopify&#39;s theme architecture and Liquid templating language.
           </p>
           <p>
-            Once I had a solid grasp, I created a new layout based on
-            Vulcan&#39;s existing theme and then built out new custom sections
-            following the Figma design created by our internal design team.
+            Once I had a solid grasp, I created a new layout based on Vulcan&#39;s
+            existing theme and then built out new custom sections following the
+            Figma design created by our internal design team.
           </p>
         </div>
         <div className={`${styles.containerContent} ${styles.textCenter}`}>

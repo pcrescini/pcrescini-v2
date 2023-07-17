@@ -119,7 +119,7 @@ section {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 0px 10%;
+  padding: 100px 10%;
   position: relative;
   z-index: 1;
 }
@@ -148,26 +148,18 @@ section {
 #about {
   background-color: var(--ultra-violet);
   color: var(--light);
-  min-height: 100vh;
-  padding-top: 50px;
-  padding-bottom: 0px;
-  min-height: calc(100vh - 125px);
   scroll-margin-top: 124px;
 }
 
 #projects {
   background-color: var(--light);
   color: var(--dark);
-  min-height: 100vh;
-  padding-top: 50px;
-  padding-bottom: 50px;
   scroll-margin-top: 124px;
 }
 
 #contact {
   background-color: var(--dark);
   color: var(--light);
-  min-height: calc(100vh - 125px);
   scroll-margin-top: 124px;
 }
 

@@ -43,12 +43,12 @@ export default function SpeechTimer() {
           </p>
           <p>
             One of the skills we practice in Toastmasters is speaking within our
-            allocated time period. During speeches, a designated timer would
+            allocated time. During speeches, a designated timer would
             keep track of the time and provide visual clues to the speaker once
           </p>
           <p>
             When the pandemic forced Toastmasters clubs to meet virtually,
-            having an easy to use and readily accessible digital timing tool for
+            having an easy-to-use and readily accessible digital timing tool for
             speeches was paramount.
           </p>
           <p>
@@ -63,7 +63,7 @@ export default function SpeechTimer() {
               Toastmasters Speech Timer created by Caleb Grove
             </a>
             , I wanted to see if I could recreate this tool from scratch and
-            customize it to my personal needs.
+            customize it to my own personal needs.
           </p>
         </div>
         <div className={`${styles.containerContent} ${styles.textCenter}`}>

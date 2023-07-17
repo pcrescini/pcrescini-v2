@@ -21,12 +21,12 @@ export default function ManRefined() {
       <div className={styles.container}>
         <div className={styles.containerContent}>
           <p>
-            TheManRefined is an independent menswear retailer that specializes
-            in making high quality, custom-made garments that don&#39;t break
-            the bank.
+            TheManRefined is an independent menswear retailer specializing in
+            making high-quality, custom-made garments that don&#39;t break the
+            bank.
           </p>
           <p>
-            TheManRefined migrated their e-commerce store over to{' '}
+            TheManRefined migrated its e-commerce store over to{' '}
             <a
               href="https://www.cart.com"
               target="_blank"
@@ -35,12 +35,12 @@ export default function ManRefined() {
             >
               Cart.com
             </a>{' '}
-            in 2022. I served as one of three front-end web developers
-            responsible for building out their new ecommerce website on the Cart
-            Storefront platform.
+            in 2022. I was one of three front-end web developers responsible for
+            building their new ecommerce website on the Cart Storefront
+            platform.
           </p>
           <p>
-            My responsibilities included bulding out the following pages and
+            My responsibilities included building out the following pages and
             templates based on the company&#39;s brand guidelines and the Figma
             designs created by our internal design team:
           </p>

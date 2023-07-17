@@ -13,7 +13,7 @@ const PROJECTS_DATA = [
     platform: 'cart storefront',
     imgSrc: '/man-refined.png',
     description:
-      'TheManRefined is an independent menswear retailer that specializes in making high quality, custom-made garments that don\'t break the bank.',
+      'TheManRefined is an independent menswear retailer that specializes in making high-quality, custom-made garments that don\'t break the bank.',
   },
   {
     id: 'knwblegrwn',
@@ -22,7 +22,7 @@ const PROJECTS_DATA = [
     platform: 'cart storefront',
     imgSrc: '/knwble-grwn.png',
     description:
-      'Knwble Grwn is a brand with a mission to support what matters most people and the planet. Their products are produced by small or traditionally underrepresented farmers who use regenerative agricultural practices to help protect the environment.',
+      'Knwble Grwn is a brand with a mission to support what matters to most people and the planet. Their products are produced by small or traditionally underrepresented farmers who use regenerative agricultural practices to help protect the environment.',
   },
   {
     id: 'vulcan',
@@ -31,7 +31,7 @@ const PROJECTS_DATA = [
     platform: 'shopify',
     imgSrc: '/vulcan-weatherlock-bags.png',
     description:
-      'Vulcan is the leading direct to consumer brand for premium firearm accessories. By cutting out the middlemen, leveraging social media, and utilizing global distribution networks we can provide innovative and premium products at affordable prices worldwide.',
+      'Vulcan is the leading direct to consumer brand for premium firearm accessories. By cutting out the middlemen, leveraging social media, and utilizing global distribution networks, we can provide innovative and premium products at affordable prices worldwide.',
   },
   {
     id: 'ivzindexing',
@@ -40,7 +40,7 @@ const PROJECTS_DATA = [
     platform: 'magnolia cms',
     imgSrc: '/invesco-indexing.png',
     description:
-      'Invesco Indexing develops and licenses customized, proprietary indexes that leverage the global scale of Invesco — one of the world’s premiere global investment management firms.',
+      'Invesco Indexing develops and licenses customized, proprietary indexes that leverage the global scale of Invesco — one of the world\'s premiere global investment management firms.',
   },
   {
     id: 'speech-timer',

@@ -56,9 +56,9 @@ export default function IvzIndexing() {
             income indexes landing pages, and the individual index detail pages.
           </p>
           <p>
-            In addition, I served as the lead CMS author who was responsible for
-            creating creating pages, uploading assets, and implementing content
-            within the CMS whenever new indexes were launched.
+            Additionally, I took on the role of lead CMS author, overseeing the
+            creation of pages, uploading assets, and implementing content for
+            new product launches.
           </p>
         </div>
         <div className={`${styles.containerContent} ${styles.textCenter}`}>

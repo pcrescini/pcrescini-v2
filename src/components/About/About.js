@@ -16,21 +16,22 @@ export default function About() {
           </p>
           <p>
             My love for building websites began in the late 90s when I received
-            a newsleter from my dial up ISP with an article on how to create a
+            a newsletter from my dial-up ISP with an article on how to create a
             website using HTML and CSS.
           </p>
           <p>
-            Fast-forward to today, and I have had the honor of working with a
+            Fast-forward to today and I have had the honor of working with a
             diverse range of clients and collaborating with cross-functional
             teams to develop and maintain web applications, mobile apps, and
             responsive websites.
           </p>
           <p>
-            I am passionate about creating intuitive and engaging user
-            experiences that seamlessly integrate design and functionality. I am
-            committed to staying up-to-date with the latest web development
-            trends, learning new technologies, and excited to put that knowledge
-            into practice.
+            I am passionate about crafting intuitive and captivating user
+            experiences that harmoniously blend design with functionality. My
+            dedication drives me to remain well-informed about the latest web
+            development trends and constantly seek opportunities to learn new
+            technologies, eagerly embracing the chance to apply this knowledge
+            in practical scenarios.
           </p>
         </div>
         <div
