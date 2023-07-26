@@ -11,27 +11,35 @@ export default function About() {
         <div data-aos="fade-right" data-aos-duration="1000">
           <h2 className={montserrat.className}>About</h2>
           <p>
-            Hello and welcome! My name is Paul and I enjoy building things for
-            the web.{' '}
+            Hello and welcome! I&#39;m Paul, and I&#39;m passionate about
+            building things for the web.
           </p>
+
           <p>
-            My love for building websites began in the late 90s when I received
-            a newsletter from my dial-up ISP with an article on how to create a
-            website using HTML and CSS.
+            My web development journey started in the late 90s when I received a
+            newsletter from my dial-up ISP with a guide on creating websites
+            using HTML and CSS.
           </p>
+
           <p>
-            Fast-forward to today and I have had the honor of working with a
-            diverse range of clients and collaborating with cross-functional
-            teams to develop and maintain web applications, mobile apps, and
+            Since then, I've worked in the financial and ecommerce industries,
+            supporting a diverse range of clients and collaborating with
+            cross-functional teams to develop web applications, mobile apps, and
             responsive websites.
           </p>
+
           <p>
-            I am passionate about crafting intuitive and captivating user
-            experiences that harmoniously blend design with functionality. My
-            dedication drives me to remain well-informed about the latest web
-            development trends and constantly seek opportunities to learn new
-            technologies, eagerly embracing the chance to apply this knowledge
-            in practical scenarios.
+            What drives me is the joy of creating user-friendly experiences that
+            blend design and functionality seamlessly. I enjoy staying updated
+            with the latest web development trends and eagerly seek
+            opportunities to learn new technologies, applying this knowledge to
+            practical scenarios.
+          </p>
+
+          <p>
+            I look forward to the chance to work on exciting projects and
+            continue my growth in the ever-evolving world of web development.
+            Let&#39;s create something great together!
           </p>
         </div>
         <div
