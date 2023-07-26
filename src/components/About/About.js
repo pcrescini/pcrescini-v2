@@ -22,7 +22,7 @@ export default function About() {
           </p>
 
           <p>
-            Since then, I've worked in the financial and ecommerce industries,
+            Since then, I&#39;ve worked in the financial and ecommerce industries,
             supporting a diverse range of clients and collaborating with
             cross-functional teams to develop web applications, mobile apps, and
             responsive websites.
