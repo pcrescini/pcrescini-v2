@@ -1,6 +1,6 @@
 export default function Drawer({ handleDismiss, children }) {
   return (
-    <div onClick={handleDismiss}>
+    <div className="drawer" onClick={handleDismiss}>
       {children}
     </div>
   );

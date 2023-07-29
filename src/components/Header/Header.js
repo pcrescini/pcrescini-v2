@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header className={headerStyle}>
       <Logo />
-      <Navbar />
+      <Navbar  />
     </header>
   );
 }

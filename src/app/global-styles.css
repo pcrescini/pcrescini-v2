@@ -131,7 +131,7 @@ section {
   z-index: 1;
   overflow-x: hidden;
   min-height: calc(100vh - 125px);
-  scroll-margin-top: 124px;
+  scroll-margin-top: 99px;
 }
 
 #hero h1 {
@@ -148,19 +148,19 @@ section {
 #about {
   background-color: var(--ultra-violet);
   color: var(--light);
-  scroll-margin-top: 124px;
+  scroll-margin-top: 99px;
 }
 
 #projects {
   background-color: var(--light);
   color: var(--dark);
-  scroll-margin-top: 124px;
+  scroll-margin-top: 99px;
 }
 
 #contact {
   background-color: var(--dark);
   color: var(--light);
-  scroll-margin-top: 124px;
+  scroll-margin-top: 99px;
 }
 
 @media screen and (max-width: 767px) {

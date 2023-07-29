@@ -11,7 +11,7 @@ export default function Hamburger({ handleDismiss, showMobileNav }) {
     <button
       type="button"
       className={styles.hamburgerMenuButton}
-      onClick={handleDismiss}
+      onClick={() => handleDismiss()}
       aria-expanded={showMobileNav}
       aria-controls="main-menu"
     >

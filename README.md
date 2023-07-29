@@ -1,6 +1,8 @@
-# paulcrescini.dev - v2
+![Paul C Crescini Logo](/public/logo.png)
 
-The second iteration of [paulcrescini.dev](https://paulcrescini.dev) —  an online portfolio showcasing my professional front-end development work along with personal mini projects.
+# paulcrescini.com
+
+[paulcrescini.com](https://paulcrescini.com) is a recreation of my online portfolio —  [paulcrescini.dev](https://paulcrescini.dev) —  built using React and Next.js.
 
 ---
 
