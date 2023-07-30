@@ -16,7 +16,7 @@ export default function Navbar() {
     if (!isMobile && showMobileNav) {
       setShowMobileNav(false);
     }
-  }, [isMobile, showMobileNav]);
+  }, [isMobile, showMobileNav, setShowMobileNav]);
 
   return (
     <>
