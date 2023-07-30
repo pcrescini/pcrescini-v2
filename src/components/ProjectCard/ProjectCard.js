@@ -22,8 +22,17 @@ export default function ProjectCard({
       className={styles.card}
     >
       <div className={styles.imageContainer}>
-        <Link href={`/projects/${id}`} scroll={true} className={styles.imageLink}>
-          <Image fill src={imgSrc} alt={name} />
+        <Link
+          href={`/projects/${id}`}
+          scroll={true}
+          className={styles.imageLink}
+        >
+          <Image
+            fill
+            src={imgSrc}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            alt={name}
+          />
         </Link>
       </div>
       <div className={styles.content}>
@@ -33,7 +42,9 @@ export default function ProjectCard({
         </p>
         <p>{description}</p>
         <p className={styles.link}>
-          <Link href={`/projects/${id}`} scroll={true}>Learn more →</Link>
+          <Link href={`/projects/${id}`} scroll={true}>
+            Learn more →
+          </Link>
         </p>
       </div>
     </div>
