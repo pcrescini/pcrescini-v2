@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import SocialMediaIcon from '@/components/SocialMediaIcon';
@@ -38,7 +38,7 @@ const SOCIAL_MEDIA_DATA = [
     name: 'Twitter',
     url: 'https://twitter.com/paulccrescini',
     label: 'Link to my Twitter Account (opens in new tab)',
-    icon: <FontAwesomeIcon icon={faTwitter} size="2x" />,
+    icon: <FontAwesomeIcon icon={faXTwitter} size="2x" />,
   },
   {
     id: 'instagram',
