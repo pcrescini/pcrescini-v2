@@ -43,8 +43,8 @@ export default function Bullseye() {
           <ul>
             <li>implement a very simple AI to make the creatures feel alive</li>
             <li>
-              control the game&#39;s FPS and measure time to trigger
-              periodic events
+              control the game&#39;s FPS and measure time to trigger periodic
+              events
             </li>
             <li>
               apply collision detection, resolve collisions and use that to
@@ -62,7 +62,7 @@ export default function Bullseye() {
           </ul>
           <p>Future enchancements for this project include:</p>
           <ul>
-            <li>refactoring the code to make the game mobile responsive</li>
+            <li>refactoring the code to make the game mobile-responsive</li>
             <li>adding in music and sound effects</li>
             <li>implementing difficulty settings</li>
             <li>adding in a high-score scoreboard</li>

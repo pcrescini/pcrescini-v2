@@ -36,7 +36,7 @@ export default function Knwblegrwn() {
             >
               Cart.com
             </a>{' '}
-            in 2022 to expand their ecommerce channels beyond Amazon.
+            in 2022 to expand its ecommerce channels beyond Amazon.
           </p>
           <p>
             Since they did not initially require the full ecommerce capabilities
@@ -44,8 +44,8 @@ export default function Knwblegrwn() {
             designs created by our internal design team.
           </p>
           <p>
-            This project was enjoyable as I had fun building a simple yet
-            elegant design.
+            I enjoyed working on this project as it was fun to build out a
+            design that was both simple and elegant.
           </p>
         </div>
         <div className={`${styles.containerContent} ${styles.textCenter}`}>

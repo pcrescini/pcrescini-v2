@@ -30,7 +30,7 @@ export default function SpeechTimer() {
             >
               Toastmasters International
             </a>{' '}
-            in July 2015 and have given countless speeches at my home club,{' '}
+            in July 2015 and have given countless speeches at my clubs,{' '}
             <a
               href="https://talkingbull.toastmastersclubs.org/"
               target="_blank"
@@ -38,32 +38,29 @@ export default function SpeechTimer() {
               aria-label="Link to Talking Bull Toastmasters website (opens in new tab)"
             >
               Talking Bull Toastmasters
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://6422.toastmastersclubs.org/"
+              target="_blank"
+              rel="noreferrer nofollow"
+              aria-label="Link to All Star Toastmasters website (opens in new tab)"
+            >
+              All Star Toastmasters
             </a>
             .
           </p>
           <p>
             One of the skills we practice in Toastmasters is speaking within our
-            allocated time. During speeches, a designated timer would
-            keep track of the time and provide visual clues to the speaker once
+            allotted time. During speeches, a designated timer keeps track of
+            the time and provides visual clues to the speaker when they are near
+            the end of their allotted time.
           </p>
           <p>
             When the pandemic forced Toastmasters clubs to meet virtually,
             having an easy-to-use and readily accessible digital timing tool for
-            speeches was paramount.
-          </p>
-          <p>
-            Inspired by the{' '}
-            <a
-              href="https://tmtimer.calebgrove.com/"
-              target="_blank"
-              rel="noreferrer nofollow"
-              aria-label="Link to Caleb Grover Timer website (opens in new tab)"
-            >
-              {' '}
-              Toastmasters Speech Timer created by Caleb Grove
-            </a>
-            , I wanted to see if I could recreate this tool from scratch and
-            customize it to my own personal needs.
+            speeches was paramount. I found the timer app on my smartphone
+            cumbersome, so I created this tool to simplify things.
           </p>
         </div>
         <div className={`${styles.containerContent} ${styles.textCenter}`}>

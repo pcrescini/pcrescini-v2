@@ -34,10 +34,10 @@ export default function IvzIndexing() {
             — one of the world&#39;s premier global investment management firms.
           </p>
           <p>
-            Prior to launching their indexes to the public, the company wanted a
-            webstite to house all index information that was separate from their
-            U.S. product center. At the time, the Invesco Americas Marketing &
-            Techonology team was exploring new content management systems and
+            Before launching their indexes to the public, the company wanted a
+            website to house all index information separate from their U.S.
+            product center. At the time, the Invesco Americas Marketing &
+            Technology team was exploring new content management systems and
             decided to build out this website on{' '}
             <a
               href="https://www.magnolia-cms.com/"

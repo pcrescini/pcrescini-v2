@@ -15,17 +15,19 @@ export default function Vulcan() {
       <h6 className={`${montserrat.className} ${styles.mb1}`}>
         <Link href={`/#projects`}>&larr; Back to Projects</Link>
       </h6>
-      <h1 className={`h2 ${montserrat.className} ${styles.mb1}`}>Vulcan</h1>
+      <h1 className={`h2 ${montserrat.className} ${styles.mb1}`}>
+        VULCAN Arms
+      </h1>
       <div className={styles.container}>
         <div className={styles.containerContent}>
           <p>
-            Vulcan is the leading direct to consumer brand for premium firearm
-            accessories. By cutting out the middlemen, leveraging social media, and
-            utilizing global distribution networks, we can provide innovative
-            and premium products at affordable prices worldwide.
+            VULCAN Arms is the leading direct-to-consumer brand for premium
+            firearm accessories. By cutting out the middlemen, leveraging social
+            media, and utilizing global distribution networks, we can provide
+            innovative and premium products at affordable prices worldwide.
           </p>
           <p>
-            Vulcan aquired the help{' '}
+            Vulcan aquired the help of{' '}
             <a
               href="https://www.cart.com/solution/growth-marketing"
               target="_blank"
@@ -52,9 +54,9 @@ export default function Vulcan() {
             Shopify&#39;s theme architecture and Liquid templating language.
           </p>
           <p>
-            Once I had a solid grasp, I created a new layout based on Vulcan&#39;s
-            existing theme and then built out new custom sections following the
-            Figma design created by our internal design team.
+            Once I had a solid grasp, I created a new layout based on
+            Vulcan&#39;s existing theme and then built out new custom sections
+            following the Figma design created by our internal design team.
           </p>
         </div>
         <div className={`${styles.containerContent} ${styles.textCenter}`}>
