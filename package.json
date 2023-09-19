@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "new-component": "new-component",
     "prettier": "prettier --write ."
   },
   "dependencies": {
@@ -18,6 +19,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
+    "new-component": "^5.0.2",
     "next": "13.4.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
