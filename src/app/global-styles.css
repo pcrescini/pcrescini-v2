@@ -40,8 +40,10 @@ html:not(.iFrame) {
 
 body {
   margin: 0px;
-  width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
   font-size: var(--font-size-lg);
   letter-spacing: 1.4;
   line-height: 140%;
@@ -115,6 +117,7 @@ h6,
 }
 
 section {
+  flex: 1 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -134,14 +137,16 @@ section {
   scroll-margin-top: 99px;
 }
 
-#hero h1 {
+#hero h1,
+#notFound h1 {
   margin: 1rem 0;
 }
 
 #hero h2,
 #about h2,
 #projects h2,
-#contact h2 {
+#contact h2,
+#notFound h2 {
   margin-bottom: 2rem;
 }
 
@@ -161,6 +166,51 @@ section {
   background-color: var(--dark);
   color: var(--light);
   scroll-margin-top: 99px;
+}
+
+#notFound {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+#notFound a {
+  color: var(--dark);
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: var(--transition);
+}
+
+#notFound a:not(.imageLink)::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  position: relative;
+  bottom: -4px;
+  background-color: var(--robin-egg-blue);
+  transition: var(--transition);
+}
+
+#notFound a:focus,
+#notFound a:focus-visible {
+  outline: 2px dotted red;
+  outline-offset: 5px;
+}
+
+#notFound a:hover {
+  color: var(--dark);
+  outline: 0px;
+}
+
+#notFound a:hover::after {
+  width: 100%;
+}
+
+#notFound p {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -220,7 +270,10 @@ section {
     margin-bottom: 1rem;
   }
 
-  #hero, #about, #projects, #contact {
+  #hero,
+  #about,
+  #projects,
+  #contact {
     scroll-margin-top: 99px;
   }
 
