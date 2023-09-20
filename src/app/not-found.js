@@ -13,8 +13,8 @@ export default function NotFound() {
       <h1 className={styles.colorCelestialBlue}>404 Not Found</h1>
       <h2 className={styles.colorFederalBlue}>Oh, this is embarrassing...</h2>
       <p>
-        I can't seem to find the page you requested. While I work on finding it,
-        please check out my home page to see what is currently available.
+        I can&#39;t seem to find the page you requested. While I work on finding
+        it, please check out my home page to see what is currently available.
       </p>
       <Link href={`/`}>Take Me Home &rarr; </Link>
     </section>

@@ -36,7 +36,10 @@ export default async function ProjectPage({ params }) {
     <section className={styles.projectPage}>
       <ProjectPageNav title={frontmatter.title} />
 
-      <MDXRemote source={content} />
+      <MDXRemote
+        source={content}
+        components={{ FontAwesomeIcon, faUpRightFromSquare }}
+      />
     </section>
   );
 }
