@@ -1,8 +1,8 @@
+import React from 'react';
 import { notFound } from 'next/navigation';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 
+import { SITE_TITLE } from '@/constants';
 import { loadPageContent } from '@/helpers/file-helpers';
 import ProjectPageNav from '@/components/ProjectPageNav';
 
@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
   const { frontmatter } = pageContentData;
 
   return {
-    title: `${frontmatter.title} • Paul C Crescini | Front-end Web Developer`,
+    title: `${frontmatter.title} • ${SITE_TITLE}`,
     description: `${frontmatter.abstract}`,
   };
 }
@@ -34,12 +34,13 @@ export default async function ProjectPage({ params }) {
 
   return (
     <section className={styles.projectPage}>
-      <ProjectPageNav title={frontmatter.title} />
-
-      <MDXRemote
-        source={content}
-        components={{ FontAwesomeIcon, faUpRightFromSquare }}
+      <ProjectPageNav
+        title={frontmatter.title}
+        codeURL={frontmatter.codeURL}
+        liveURL={frontmatter.liveURL}
       />
+
+      <MDXRemote source={content} />
     </section>
   );
 }
