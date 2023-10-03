@@ -1,15 +1,14 @@
+import React from 'react';
 import Image from 'next/image';
-import { Montserrat } from 'next/font/google';
-import styles from './About.module.css';
 
-const montserrat = Montserrat({ subsets: ['latin'] });
+import styles from './About.module.css';
 
 export default function About() {
   return (
     <section id="about">
       <div className={styles.container}>
         <div data-aos="fade-right" data-aos-duration="1000">
-          <h2 className={montserrat.className}>About</h2>
+          <h2>About</h2>
           <p>
             Hello and welcome! I&#39;m Paul, and I&#39;m passionate about
             building things for the web.
@@ -22,10 +21,10 @@ export default function About() {
           </p>
 
           <p>
-            Since then, I&#39;ve worked in the financial and ecommerce industries,
-            supporting a diverse range of clients and collaborating with
-            cross-functional teams to develop web applications, mobile apps, and
-            responsive websites.
+            Since then, I&#39;ve worked in the financial and ecommerce
+            industries, supporting a diverse range of clients and collaborating
+            with cross-functional teams to develop web applications, mobile
+            apps, and responsive websites.
           </p>
 
           <p>

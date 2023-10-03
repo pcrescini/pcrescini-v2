@@ -1,10 +1,8 @@
-import { Montserrat } from 'next/font/google';
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 import styles from './ProjectCard.module.css';
-
-const montserrat = Montserrat({ subsets: ['latin'] });
 
 export default function ProjectCard({
   id,
@@ -36,7 +34,7 @@ export default function ProjectCard({
         </Link>
       </div>
       <div className={styles.content}>
-        <h3 className={montserrat.className}>{name}</h3>
+        <h3>{name}</h3>
         <p className={styles.tag}>
           {category} {platform && ` | ${platform}`}
         </p>

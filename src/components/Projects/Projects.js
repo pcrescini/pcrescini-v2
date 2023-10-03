@@ -1,9 +1,8 @@
-import { Montserrat } from 'next/font/google';
+import React from 'react';
+
 import ProjectCard from '@/components/ProjectCard';
 
 import styles from './Projects.module.css';
-
-const montserrat = Montserrat({ subsets: ['latin'] });
 
 const PROJECTS_DATA = [
   {
@@ -13,7 +12,7 @@ const PROJECTS_DATA = [
     platform: 'cart storefront',
     imgSrc: '/man-refined.png',
     description:
-      'TheManRefined is an independent menswear retailer that specializes in making high-quality, custom-made garments that don\'t break the bank.',
+      "TheManRefined is an independent menswear retailer that specializes in making high-quality, custom-made garments that don't break the bank.",
   },
   {
     id: 'knwblegrwn',
@@ -40,7 +39,7 @@ const PROJECTS_DATA = [
     platform: 'magnolia cms',
     imgSrc: '/invesco-indexing.png',
     description:
-      'Invesco Indexing develops and licenses customized, proprietary indexes that leverage the global scale of Invesco — one of the world\'s premiere global investment management firms.',
+      "Invesco Indexing develops and licenses customized, proprietary indexes that leverage the global scale of Invesco — one of the world's premiere global investment management firms.",
   },
   {
     id: 'speech-timer',
@@ -65,7 +64,7 @@ const PROJECTS_DATA = [
 export default function Projects() {
   return (
     <section id="projects">
-      <h2 className={montserrat.className}>Projects</h2>
+      <h2>Projects</h2>
       <div className={styles.container}>
         {PROJECTS_DATA.map(
           ({ id, name, category, platform, description, imgSrc }) => (

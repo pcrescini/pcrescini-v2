@@ -1,8 +1,11 @@
 'use client';
+import React from 'react';
+
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import { ChevronUp } from 'react-feather';
+
 import useWindowScroll from '@/hooks/use-window-scroll';
+
 import styles from './ScrollToTop.module.css';
 
 export default function ScrollToTop() {
@@ -27,7 +30,7 @@ export default function ScrollToTop() {
         type="button"
         onClick={scrollToTop}
       >
-        <FontAwesomeIcon icon={faAngleUp} size="2x" />
+        <ChevronUp size={48} />
         <span className={styles.visuallyHidden}> scroll to top </span>
       </button>
     </div>

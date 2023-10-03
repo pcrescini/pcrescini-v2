@@ -1,20 +1,15 @@
-import { Montserrat } from 'next/font/google';
-import styles from './Hero.module.css';
+import React from 'react';
 
-const montserrat = Montserrat({ subsets: ['latin'] });
+import styles from './Hero.module.css';
 
 export default function Hero() {
   return (
     <section id="hero">
       <div>
         <div>
-          <h4 className={montserrat.className}>Welcome! My name is</h4>
-          <h1
-            className={`${montserrat.className} ${styles.colorCelestialBlue}`}
-          >
-            Paul C Crescini.
-          </h1>
-          <h2 className={`${montserrat.className} ${styles.colorFederalBlue}`}>
+          <h4>Welcome! My name is</h4>
+          <h1 className={styles.colorRobinEggBlue}>Paul C Crescini.</h1>
+          <h2 className={styles.colorSilver}>
             I enjoy building things for the web.
           </h2>
           <p>
@@ -25,7 +20,6 @@ export default function Hero() {
             development frameworks.
           </p>
         </div>
-        <div className={styles.pentagon}></div>
       </div>
     </section>
   );

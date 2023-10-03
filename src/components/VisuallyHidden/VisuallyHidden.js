@@ -1,3 +1,5 @@
+import React from 'react';
+
 const hiddenStyles = {
   display: 'inline-block',
   position: 'absolute',

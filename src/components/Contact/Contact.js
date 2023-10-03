@@ -1,4 +1,5 @@
-import { Montserrat } from 'next/font/google';
+import React from 'react';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -7,9 +8,8 @@ import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import SocialMediaIcon from '@/components/SocialMediaIcon';
-import styles from './Contact.module.css';
 
-const montserrat = Montserrat({ subsets: ['latin'] });
+import styles from './Contact.module.css';
 
 const SOCIAL_MEDIA_DATA = [
   {
@@ -52,7 +52,7 @@ const SOCIAL_MEDIA_DATA = [
 export default function Contact() {
   return (
     <section id="contact">
-      <h2 className={montserrat.className}>Contact</h2>
+      <h2>Contact</h2>
       <div className={styles.container}>
         <div data-aos="zoom-in" data-aos-duration="1000">
           I am currently open to new career opportunities and interest in

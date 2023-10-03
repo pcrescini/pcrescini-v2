@@ -1,7 +1,9 @@
 'use client';
+import React from 'react';
 
 import useEscapeKey from '@/hooks/use-escape-key';
 import VisuallyHidden from '@/components/VisuallyHidden';
+
 import styles from './Hamburger.module.css';
 
 export default function Hamburger({ handleDismiss, showMobileNav }) {
