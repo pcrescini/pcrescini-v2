@@ -1,7 +1,3 @@
-.navLogo {
-  z-index: 99;
-}
-
 .navLogo a:focus,
 .navLogo a:focus-visible {
   outline: 2px dotted red;
@@ -15,4 +11,5 @@
 .navLogo img {
   width: 82px;
   height: 75px;
+  filter: var(--color-logo-filter);
 }

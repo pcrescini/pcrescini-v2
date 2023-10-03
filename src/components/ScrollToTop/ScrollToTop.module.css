@@ -12,7 +12,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   border-radius: 50%;
-  background: var(--robin-egg-blue);
+  background: var(--color-link);
   transition: var(--transition);
   transform: translateY(150%);
   z-index: 99;
@@ -25,6 +25,11 @@
 
 .scrollToTop.reveal {
   transform: translateY(0%);
+}
+
+.scrollToTop svg {
+  display: inline-block;
+  color: var(--color-svg-fill);
 }
 
 .visuallyHidden {

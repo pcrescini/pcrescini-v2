@@ -11,16 +11,16 @@
 }
 
 .contactSocial {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
 }
 
 .contactSocial a {
-  color: var(--light);
+  color: var(--color-text);
   display: inline-block;
   text-decoration: none;
   text-decoration-skip-ink: auto;
@@ -29,13 +29,13 @@
 }
 
 .contactSocial a::after {
-  content: "";
+  content: '';
   display: block;
   width: 0px;
   height: 2px;
   position: relative;
   bottom: 0;
-  background-color: var(--robin-egg-blue);
+  background-color: var(--color-link);
   transition: var(--transition);
 }
 
@@ -46,7 +46,7 @@
 }
 
 .contactSocial a:hover {
-  color: var(--light);
+  color: var(--color-text);
   outline: 0px;
 }
 

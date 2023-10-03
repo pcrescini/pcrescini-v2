@@ -10,7 +10,6 @@
 }
 
 .card a {
-  color: var(--dark);
   font-weight: 700;
   display: inline-block;
   text-decoration: none;
@@ -19,15 +18,14 @@
   transition: var(--transition);
 }
 
-
 .card a:not(.imageLink)::after {
-  content: "";
+  content: '';
   display: block;
   width: 0px;
   height: 2px;
   position: relative;
   bottom: 0;
-  background-color: var(--robin-egg-blue);
+  background-color: var(--color-link);
   transition: var(--transition);
 }
 
@@ -38,7 +36,6 @@
 }
 
 .card a:hover {
-  color: var(--dark);
   outline: 0px;
 }
 

@@ -5,14 +5,13 @@
   border: 0px;
   border-radius: 0px;
   background-color: transparent;
-  color: var(--light);
+  color: var(--color-text);
   font-size: 2rem;
   z-index: 20;
   transition-timing-function: linear;
   transition-duration: 0.2s;
   transition-property: opactity, filter;
 }
-
 
 .hamburgerMenuBox {
   display: inline-block;
@@ -28,21 +27,21 @@
   width: 30px;
   height: 2px;
   border-radius: 4px;
-  background-color: var(--robin-egg-blue);
+  background-color: var(--color-hamburger-menu);
   transition: var(--hamburger-transition);
   transform: rotate(0deg);
 }
 
 .hamburgerMenuBoxInner::before,
 .hamburgerMenuBoxInner::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: auto;
   right: 0px;
   height: 2px;
   border-radius: 4px;
-  background-color: var(--robin-egg-blue);
+  background-color: var(--color-hamburger-menu);
   transition-timing-function: ease;
   transition-duration: 0.15s;
   transition-property: transform;

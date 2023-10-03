@@ -29,28 +29,86 @@
     transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
 }
 
-* {
+/* CSS Reset */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-html:not(.iFrame) {
-  min-height: 100vh;
-  scroll-behavior: smooth;
+* {
+  margin: 0;
+}
+
+html {
+  scrollbar-gutter: stable;
 }
 
 body {
-  margin: 0px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Global Styles */
+html:not(.iFrame) {
+  color: var(--color-text);
+  font-family: var(--font-family), sans-serif;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1.4;
+  line-height: 140%;
+  scroll-behavior: smooth;
+  background-color: var(--color-backdrop-highlight);
+}
+
+body {
   min-height: 100vh;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
-  font-size: var(--font-size-lg);
-  letter-spacing: 1.4;
-  line-height: 140%;
-  color: var(--light);
-  background-color: var(--dark);
+  background-color: var(--color-backdrop);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50vh;
+  background: linear-gradient(
+    to top,
+    var(--color-backdrop),
+    var(--color-backdrop-highlight)
+  );
 }
 
 a {
@@ -66,6 +124,7 @@ a {
 p {
   max-width: 70ch;
   letter-spacing: 0.01rem;
+  margin-bottom: 1.5rem;
 }
 
 h1,
@@ -80,6 +139,7 @@ h5,
 .h5,
 h6,
 .h6 {
+  font-family: var(--font-family-header);
   font-weight: 700 !important;
   margin: 0;
   line-height: 100%;
@@ -122,16 +182,12 @@ section {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 100px 10%;
+  padding: 100px 12%;
   position: relative;
   z-index: 1;
 }
 
 #hero {
-  position: relative;
-  background-color: var(--light);
-  color: var(--dark);
-  z-index: 1;
   overflow-x: hidden;
   min-height: calc(100vh - 125px);
   scroll-margin-top: 99px;
@@ -150,26 +206,8 @@ section {
   margin-bottom: 2rem;
 }
 
-#about {
-  background-color: var(--ultra-violet);
-  color: var(--light);
-  scroll-margin-top: 99px;
-}
-
-#projects {
-  background-color: var(--light);
-  color: var(--dark);
-  scroll-margin-top: 99px;
-}
-
-#contact {
-  background-color: var(--dark);
-  color: var(--light);
-  scroll-margin-top: 99px;
-}
-
 #notFound {
-  background-color: var(--light);
+  background-color: var(--color-text);
   color: var(--dark);
 }
 

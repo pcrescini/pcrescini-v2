@@ -1,13 +1,9 @@
-.colorLight {
-  color: var(--light);
-}
-
-.colorDark {
-  color: var(--dark);
-}
-
 .colorPlatinum {
   color: var(--platinum);
+}
+
+.colorSilver {
+  color: var(--silver);
 }
 
 .colorJet {
@@ -34,24 +30,10 @@
   color: var(--shadow);
 }
 
-.pentagon {
-  position: absolute;
-  top: 0;
-  right: -30vh;
-  height: 100%;
-  width: 100vh;
-  background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' fill='%233b98d1' height='1500px' width='1500px' version='1.1' id='Layer_1' viewBox='0 0 512.01 512.01' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath d='M507.804 200.28L262.471 12.866c-3.84-2.923-9.131-2.923-12.949 0L4.188 200.28c-3.605 2.773-5.077 7.531-3.648 11.84 l93.717 281.92c1.451 4.373 5.525 7.296 10.133 7.296h303.253c4.587 0 8.683-2.944 10.133-7.296l93.717-281.92 C512.882 207.789 511.41 203.053 507.804 200.28z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  z-index: -1;
+.primary {
+  color: var(--color-primary-900);
 }
 
-@media screen and (max-width: 767px) {
-  .pentagon {
-    position: relative;
-    top: 0;
-    right: 0;
-    height: 0;
-    width: 0;
-    background: none;
-  }
+.secondary {
+  color: var(--color-secondary-500);
 }
