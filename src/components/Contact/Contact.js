@@ -9,6 +9,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import SocialMediaIcon from '@/components/SocialMediaIcon';
 
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import styles from './Contact.module.css';
 
 const SOCIAL_MEDIA_DATA = [

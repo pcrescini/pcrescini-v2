@@ -8,8 +8,8 @@ export default function Hero() {
       <div>
         <div>
           <h4>Welcome! My name is</h4>
-          <h1 className={styles.colorRobinEggBlue}>Paul C Crescini.</h1>
-          <h2 className={styles.colorSilver}>
+          <h1 className={styles.primary}>Paul C Crescini.</h1>
+          <h2 className={styles.secondary}>
             I enjoy building things for the web.
           </h2>
           <p>

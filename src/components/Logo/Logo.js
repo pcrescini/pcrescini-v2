@@ -1,5 +1,8 @@
+'use client';
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+
 import styles from './Logo.module.css';
 
 export default function Logo() {
@@ -7,7 +10,7 @@ export default function Logo() {
     <div className={styles.navLogo}>
       <Link href="/">
         <Image
-          src="/logo.png"
+          src="/logo-black.png"
           width={82}
           height={75}
           alt="Logo of paulcrescini.dev website"

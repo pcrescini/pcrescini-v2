@@ -1,14 +1,22 @@
 'use client';
+import React from 'react';
+
+import { useEffect } from 'react';
+import { Sun, Moon } from 'react-feather';
+
+import Cookie from 'js-cookie';
+
+import { LIGHT_TOKENS, DARK_TOKENS } from '@/constants';
+
 import Hamburger from '@/components/Hamburger';
 import Drawer from '@/components/Drawer';
+import VisuallyHidden from '@/components/VisuallyHidden';
 import useToggle from '@/hooks/use-toggle';
 import useIsMobile from '@/hooks/use-is-mobile';
-import { useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+
 import styles from './Navbar.module.css';
 
-export default function Navbar() {
+export default function Navbar({ initialTheme }) {
   const [showMobileNav, setShowMobileNav] = useToggle(false);
   const isMobile = useIsMobile();
 
@@ -18,6 +26,22 @@ export default function Navbar() {
     }
   }, [isMobile, showMobileNav, setShowMobileNav]);
 
+  const [theme, setTheme] = React.useState(initialTheme);
+
+  function handleClick() {
+    const nextTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(nextTheme);
+
+    Cookie.set('color-theme', nextTheme, { expires: 1000 });
+
+    const root = document.documentElement;
+    const colors = nextTheme === 'light' ? LIGHT_TOKENS : DARK_TOKENS;
+
+    root.setAttribute('data-color-theme', nextTheme);
+    Object.entries(colors).forEach(([key, value]) => {
+      root.style.setProperty(key, value);
+    });
+  }
   return (
     <>
       {isMobile ? (
@@ -47,14 +71,10 @@ export default function Navbar() {
                   <a href="/#contact">Contact</a>
                 </li>
               </ul>
-              <a
-                className={styles.resumeLink}
-                href="/paul-c-crescini-resume.pdf"
-                target="_blank"
-                aria-label="Link to my Resume in PDF format (opens in new tab)"
-              >
-                Resume <FontAwesomeIcon icon={faUpRightFromSquare} />
-              </a>
+              <button className={styles.action} onClick={handleClick}>
+                {theme === 'light' ? <Sun size={24} /> : <Moon size={24} />}
+                <VisuallyHidden>Toggle dark / light mode</VisuallyHidden>
+              </button>
             </div>
           </Drawer>
         </nav>
@@ -72,14 +92,10 @@ export default function Navbar() {
                 <a href="/#contact">Contact</a>
               </li>
             </ul>
-            <a
-              className={styles.resumeLink}
-              href="/paul-c-crescini-resume.pdf"
-              target="_blank"
-              aria-label="Link to my Resume in PDF format (opens in new tab)"
-            >
-              Resume <FontAwesomeIcon icon={faUpRightFromSquare} />
-            </a>
+            <button className={styles.action} onClick={handleClick}>
+              {theme === 'light' ? <Sun size={24} /> : <Moon size={24} />}
+              <VisuallyHidden>Toggle dark / light mode</VisuallyHidden>
+            </button>
           </div>
         </nav>
       )}
