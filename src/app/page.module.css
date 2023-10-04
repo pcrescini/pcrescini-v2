@@ -33,3 +33,11 @@
 .colorShadow {
   color: var(--shadow);
 }
+
+.primary {
+  color: var(--color-primary-900);
+}
+
+.secondary {
+  color: var(--color-secondary-500);
+}
