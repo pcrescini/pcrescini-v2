@@ -233,7 +233,6 @@ section {
 }
 
 #notFound a:hover {
-  color: var(--dark);
   outline: 0px;
 }
 
