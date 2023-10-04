@@ -24,6 +24,7 @@ export const LIGHT_COLORS = {
   '--color-logo-filter':
     'invert(10%) sepia(31%) saturate(4573%) hue-rotate(233deg) brightness(94%) contrast(121%)',
   '--color-svg-fill': 'black',
+  '--color-scroll-fill': 'white',
   '--color-gray-0': 'white',
   '--color-gray-100': 'hsl(50deg 20% 90%)',
   '--color-gray-200': 'hsl(50deg 15% 85%)',
@@ -56,6 +57,7 @@ export const DARK_COLORS = {
   '--color-logo-filter':
     'invert(44%) sepia(87%) saturate(2548%) hue-rotate(164deg) brightness(98%) contrast(101%)',
   '--color-svg-fill': 'white',
+  '--color-scroll-fill': 'black',
   '--color-gray-0': 'black',
   '--color-gray-100': 'hsl(256deg 20% 10%)',
   '--color-gray-200': 'hsl(256deg 15% 15%)',

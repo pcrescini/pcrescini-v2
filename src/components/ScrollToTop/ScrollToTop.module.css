@@ -29,7 +29,7 @@
 
 .scrollToTop svg {
   display: inline-block;
-  color: var(--color-svg-fill);
+  color: var(--color-scroll-fill);
 }
 
 .visuallyHidden {
