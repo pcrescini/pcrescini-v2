@@ -5,42 +5,32 @@ import Image from 'next/image';
 import styles from './ProjectCard.module.css';
 
 export default function ProjectCard({
-  id,
-  name,
-  category,
-  platform,
-  description,
+  slug,
+  title,
+  tags,
   imgSrc,
+  description,
 }) {
+  const href = `/projects/${slug}`;
+
   return (
-    <div
-      data-aos="zoom-in"
-      data-aos-duration="1000"
-      key={id}
-      className={styles.card}
-    >
+    <div key={slug} className={styles.card}>
       <div className={styles.imageContainer}>
-        <Link
-          href={`/projects/${id}`}
-          scroll={true}
-          className={styles.imageLink}
-        >
+        <Link href={href} scroll={true} className={styles.imageLink}>
           <Image
             fill
             src={imgSrc}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            alt={name}
+            alt={title}
           />
         </Link>
       </div>
       <div className={styles.content}>
-        <h3>{name}</h3>
-        <p className={styles.tag}>
-          {category} {platform && ` | ${platform}`}
-        </p>
+        <h3>{title}</h3>
+        <p className={styles.tag}>{tags}</p>
         <p>{description}</p>
         <p className={styles.link}>
-          <Link href={`/projects/${id}`} scroll={true}>
+          <Link href={href} scroll={true}>
             Learn more →
           </Link>
         </p>
