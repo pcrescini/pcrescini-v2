@@ -1,4 +1,4 @@
-export const SITE_TITLE = 'Paul C Crescini | Front-end Web Developer';
+export const SITE_TITLE = 'Paul C Crescini - Front-end Web Developer';
 export const SITE_DESCRIPTION =
   'Front-end web developer offering 10+ years of experience working with a diverse range of clients and collaborating with cross-functional teams to develop and maintain web applications, mobile apps, and responsive websites.';
 
