@@ -22,7 +22,7 @@ export const LIGHT_COLORS = {
   '--color-hamburger-menu': 'hsl(244deg 88% 16%)',
   '--color-link': 'hsl(244deg 88% 16%)',
   '--color-logo-filter':
-    'invert(10%) sepia(31%) saturate(4573%) hue-rotate(233deg) brightness(94%) contrast(121%)',
+    'invert(9%) sepia(29%) saturate(7459%) hue-rotate(240deg) brightness(87%) contrast(116%)',
   '--color-svg-fill': 'black',
   '--color-scroll-fill': 'white',
   '--color-gray-0': 'white',
@@ -55,7 +55,7 @@ export const DARK_COLORS = {
   '--color-hamburger-menu': 'hsl(184deg 75% 55%)',
   '--color-link': 'hsl(184deg 75% 55%)',
   '--color-logo-filter':
-    'invert(44%) sepia(87%) saturate(2548%) hue-rotate(164deg) brightness(98%) contrast(101%)',
+    'invert(87%) sepia(31%) saturate(3018%) hue-rotate(142deg) brightness(98%) contrast(82%)',
   '--color-svg-fill': 'white',
   '--color-scroll-fill': 'black',
   '--color-gray-0': 'black',

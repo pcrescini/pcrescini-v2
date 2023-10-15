@@ -9,7 +9,6 @@
 }
 
 .navLogo img {
-  width: 82px;
-  height: 75px;
   filter: var(--color-logo-filter);
+  padding: 10px 0;
 }
