@@ -22,7 +22,7 @@ export const LIGHT_COLORS = {
   '--color-hamburger-menu': 'hsl(244deg 88% 16%)',
   '--color-link': 'hsl(244deg 88% 16%)',
   '--color-logo-filter':
-    'invert(9%) sepia(29%) saturate(7459%) hue-rotate(240deg) brightness(87%) contrast(116%)',
+    'invert(0%) sepia(1%) saturate(716%) hue-rotate(326deg) brightness(99%) contrast(90%)',
   '--color-svg-fill': 'black',
   '--color-scroll-fill': 'white',
   '--color-gray-0': 'white',
