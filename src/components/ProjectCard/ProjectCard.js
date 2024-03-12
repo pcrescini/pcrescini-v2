@@ -26,7 +26,11 @@ export default function ProjectCard({
         </Link>
       </div>
       <div className={styles.content}>
-        <h3>{title}</h3>
+        <h3>
+          <Link href={href} scroll={true}>
+            {title}
+          </Link>
+        </h3>
         <p className={styles.tag}>{tags}</p>
         <p>{description}</p>
         <p className={styles.link}>

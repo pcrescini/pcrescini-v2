@@ -18,7 +18,7 @@
   height: 2px;
   position: relative;
   bottom: -4px;
-  background-color: var(--robin-egg-blue);
+  background-color: var(--color-link);
   transition: var(--transition);
 }
 

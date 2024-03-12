@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { Montserrat } from 'next/font/google';
 import { Link as LinkIcon } from 'react-feather';
 
@@ -8,6 +10,11 @@ const montserrat = Montserrat({ subsets: ['latin'] });
 export default function ProjectPageNav({ title, codeURL, liveURL }) {
   return (
     <>
+      <p className={`h6 ${montserrat.className} ${styles.mb1}`}>
+        <Link href="/#projects" scroll={true}>
+          ← Back to Projects
+        </Link>
+      </p>
       <h1 className={`h2 ${montserrat.className} ${styles.mb1}`}>{title}</h1>
       <div className={styles.mb1}>
         <a
