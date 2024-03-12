@@ -10,9 +10,9 @@ export default function Logo() {
     <div className={styles.navLogo}>
       <Link href="/">
         <Image
-          src="/logo-1.svg"
-          width={109}
-          height={100}
+          src="/logo.png"
+          width={100}
+          height={91}
           alt="Logo of paulcrescini.com website"
         />
       </Link>
